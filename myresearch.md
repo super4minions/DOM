@@ -12,11 +12,11 @@ According to the W3C HTML DOM standard, everything in an HTML document is a node
 
 
 
-⋅⋅* The entire document is a document node 
-⋅⋅* Every HTML element is an element node 
-⋅⋅* The text inside HTML elements are text nodes 
-⋅⋅* Every HTML attribute is an attribute node 
-⋅⋅* All comments are comment nodes 
+1. The entire document is a document node 
+2. Every HTML element is an element node 
+3. The text inside HTML elements are text nodes 
+4. Every HTML attribute is an attribute node 
+5. All comments are comment nodes 
 
 
 ***
