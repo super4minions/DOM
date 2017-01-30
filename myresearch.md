@@ -32,7 +32,7 @@ According to the W3C HTML DOM standard, everything in an HTML document is a node
 > There are 12 different node types, which may have children of various node types:
 -----------------------------------------------------------------------------
 |Node type 					| nodeName returns 		  | nodeValue returns 	|
------------------------------------------------------------------------------
+|---------------------------|:-----------------------:|--------------------:|
 |1 	| Element 				| 	element name 		  |	null 				|
 |2 	| Attr 	  			 	|attribute name 		  |	attribute value 	|
 |3 	| Text 	  				| #text 	content 	  |	of node 			|
@@ -45,4 +45,3 @@ According to the W3C HTML DOM standard, everything in an HTML document is a node
 |10 |	DocumentType 		|	doctype name          |	null 				|
 |11 | 	DocumentFragment 	| 	#document fragment    | null 				|
 |12 |	Notation 			|notation name 			  | null 				|
------------------------------------------------------------------------------
