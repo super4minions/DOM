@@ -30,4 +30,19 @@ According to the W3C HTML DOM standard, everything in an HTML document is a node
 > Documents, elements, attributes, and other aspects of an HTML or XML document has different node types.
 
 > There are 12 different node types, which may have children of various node types:
-
+-----------------------------------------------------------------------------
+|Node type 					| nodeName returns 		  | nodeValue returns 	|
+-----------------------------------------------------------------------------
+|1 	| Element 				| 	element name 		  |	null 				|
+|2 	| Attr 	  			 	|attribute name 		  |	attribute value 	|
+|3 	| Text 	  				| #text 	content 	  |	of node 			|
+|4 	| CDATASection 			| 	#cdata-section 		  | content of node 	|
+|5 	| EntityReference 		|	entity reference name |	null 				|
+|6 	| Entity 				|entity name 	      	  | null 	  			|
+|7 	| ProcessingInstruction |	target                | content of node 	|
+|8 	| Comment 	            | #comment                |	comment text 		|
+|9 	| Document 				| #document 			  |	null 				|
+|10 |	DocumentType 		|	doctype name          |	null 				|
+|11 | 	DocumentFragment 	| 	#document fragment    | null 				|
+|12 |	Notation 			|notation name 			  | null 				|
+-----------------------------------------------------------------------------
